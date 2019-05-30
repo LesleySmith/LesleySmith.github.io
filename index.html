@@ -3,9 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Lesley's Website</title>
+  <title>Lesley Smith</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Pacifico" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Oswald|Pacifico" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="mySite.css" />
@@ -15,7 +16,7 @@
 
 <body>
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-default">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark navbar-default">
       <a class="navbar-brand" href="#">Lesley Smith</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,70 +27,67 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pictures</a>
-        </li>
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             My Projects
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Project 1</a>
-            <a class="dropdown-item" href="#">Project 2</a>
-            <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Tabs</a>
+            <a class="dropdown-item" href="#">Spazzy Pigeon</a>
           </div>
         </li>
       </ul>
 
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
-  </nav>
+  </nav> -->
   </div>
   </div>
 
   <div class="container">
     <div class="jumbotron">
       <hr class="style">
-      <h1 class="display-4">Lesley Smith</h1>
+      <h1 class="display-4 uppercase">Lesley Smith</h1>
       <br>
       <hr class="style">
-      <p class="lead">Welcome to my website</p>
+      <p class="lead uppercase">Software Developer</p>
       <p>
 			<!-- <div class="btn-group btn-group-lg" role="group" aria-label="..."> -->
-  				<button type="button" class="btn btn-primary btn-lg round"><i class="fab fa-github"></i></button>
-  				<button type="button" class="btn btn-primary btn-lg round"><i class="fab fa-facebook-square"></i></button>
-  				<button type="button" class="btn btn-primary btn-lg round"><i class="fab fa-instagram"></i></button>
+  				<button onClick="location.href='https://github.com/LesleySmith'" type="button" class="btn btn-primary btn-lg round"><i class="fab fa-github"></i></button>
+  				<button onClick="location.href='https://www.linkedin.com/in/lesleysmith281/'" type="button" class="btn btn-primary btn-lg round"><i class="fab fa-linkedin"></i></button>
+  				<button onClick="location.href='mailto:lesleysmith@gmail.com'" type="button" class="btn btn-primary btn-lg round"><i class="far fa-envelope"></i></button>
   			</p>
     </div>
   </div>
 
   <div class="container">
     <div class="jumbotron">
-      <h2>Current Projects</h2>
+      <h2 class="uppercase">Projects</h2>
       <br>
       <div class="row">
         <div class="col-md-6 row-design">
-          <h3>First Project</h3>
+          <h3 class="uppercase">Tabs</h3>
             <hr class="style">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sem risus, interdum ac blandit sed, ultricies at erat. Fusce eu nunc euismod, tempor urna eget, facilisis metus. Vivamus massa augue, venenatis nec diam at, sagittis lacinia neque. Nam tempus sapien enim, sed consequat velit sodales a. Fusce et faucibus felis. Pellentesque semper posuere elit, et efficitur dolor mattis in. Maecenas euismod arcu id dui maximus, sed suscipit ligula sodales. Proin suscipit ullamcorper lorem, at tempus mi. Nam in nunc molestie leo hendrerit lacinia et feugiat sapien.</p>
+            <img src="tabs.png">
+              <p>Tabs Billsplitter is a mobile app for friends to split the check and pay each other back after eating out. Tabs uses text recognition technology and a custom algorithm to process information about a check, calculate tax and tip, and determine what everyone owes</p>
               <hr class="style">
         </div>
 
         <div class="col-md-6 row-design">
-          <h3>Another Project</h3>
+          <h3 class="uppercase">Spazzy Pigeon</h3>
             <hr class="style">
-              <p>In dapibus rutrum tempus. Cras dignissim nunc vel ante euismod pretium. Donec turpis arcu, fermentum a augue sed, porta bibendum sapien. Aliquam tempor maximus nibh nec molestie. Nunc consectetur rutrum massa eu fringilla. Sed nibh ex, accumsan ac neque in, pulvinar scelerisque nunc. Morbi efficitur libero a tellus volutpat, at commodo nisl convallis. Nullam et laoreet ante, sed efficitur magna.</p>
+            <a href="http://www.lesleys.website/SpazzyPigeon/"><img src="spazzypigeon.png"></a>
+              <p>Sole developer of Spazzy Pigeon, a single-player game in which you play as a pigeon to collect gems and gain points, all while avoiding stars.
+              Developed using the Phaser engine and JavaScript, use of logic to create obstacles and environments</p>
               <hr class="style">
         </div>
+
     </div>
+
   </div>
 
-  <div class="container" id="weatherContainer">
-  </div>
+  <!-- <div class="container" id="weatherContainer">
+  </div> -->
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
