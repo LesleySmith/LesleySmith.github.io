@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Lesley Smith</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Oswald|Pacifico" rel="stylesheet"> -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,31 +63,68 @@
     <div class="jumbotron">
       <h2 class="uppercase">About Me</h2>
       <hr class="style">
+      <div class="row">
+        <div class="col-md-6 row-design">
+          <img class="image-style" src="lesHeadShot.png">
+        </div>
+        <div class="col-md-6 row-design">
+          <br>
+          <p> I am a full stack software developer currently located in Chicago. I specialize in JavaScript and the NERDS stack (Node.js, Express, React, and Database using SQL). I've also dabbled in Firebase and React Native!</p>
+
+          <p>I love taking on new challenges and learing new technologies. When I'm not coding, I'm biking, hiking, bouldering, and exploring Chicago!</p>
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="container">
     <div class="jumbotron">
       <h2 class="uppercase">Projects</h2>
+      <hr class="style">
       <br>
       <div class="row">
         <div class="col-md-6 row-design">
-          <h3 class="uppercase">Tabs</h3>
-            <hr class="style">
+          <h3>Tabs</h3>
+          <br>
             <a href="https://github.com/almm-capstone/billsplitter"><img src="smallTabs.png"></a>
-              <p>Tabs Billsplitter is a mobile app for friends to split the check and pay each other back after eating out. Tabs uses text recognition technology and a custom algorithm to process information about a check, calculate tax and tip, and determine what everyone owes</p>
-              <hr class="style">
+
         </div>
 
         <div class="col-md-6 row-design">
-          <h3 class="uppercase">Spazzy Pigeon</h3>
-            <hr class="style">
-            <a href="http://www.lesleys.website/SpazzyPigeon/"><img src="spazzypigeon.png"></a>
-              <p>Sole developer of Spazzy Pigeon, a single-player game in which you play as a pigeon to collect gems and gain points, all while avoiding stars.
-              Developed using the Phaser engine and JavaScript, use of logic to create obstacles and environments</p>
-              <hr class="style">
+          <h3>Technologies</h3>
+          <br>
+          <p>Tabs Billsplitter is a React Native app for friends to split the check and pay each other back after eating out. Tabs uses text recognition technology and a custom algorithm to process information about a check, calculate tax and tip, and determine what everyone owes.</p>
+          <h4>Check out our code and presentation!</h4>
+
+          <button onClick="location.href='https://github.com/almm-capstone/billsplitter'" type="button" class="btn btn-primary btn-lg round"><i class="fab fa-github"></i></button>
+
+          <button onClick="location.href='https://www.youtube.com/watch?v=O3MyxNMNI88&list=PLx0iOsdUOUmk9wbCJIHGsqBWYV29-3c0I&index=25&t=0s'" type="button" class="btn btn-primary btn-lg round"><i class="fab fa-youtube"></i></button>
         </div>
 
+    </div>
+
+    <hr class="style">
+
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Spazzy Pigeon</h3>
+        <br>
+        <p>Sole developer of Spazzy Pigeon, a single-player game in which you play as a pigeon to collect gems and gain points, all while avoiding stars.
+        Developed using the Phaser engine and JavaScript, use of logic to create obstacles and environments. Created in four days and winner of the Stackathon contest.</p>
+
+        <h4>Check out the github or play the game!</h4>
+
+        <button onClick="location.href='https://github.com/LesleySmith/SpazzyPigeon'" type="button" class="btn btn-primary btn-lg round"><i class="fab fa-github"></i></button>
+
+        <button onClick="location.href='http://www.lesleys.website/SpazzyPigeon/'" type="button" class="btn btn-primary btn-lg round"><i class="far fa-play-circle"></i></button>
+
+      </div>
+
+      <div class="col-md-6">
+        <h3>Play the Game!</h3>
+        <br>
+        <a href="http://www.lesleys.website/SpazzyPigeon/"><img src="spazzypigeon.png"></a>
+      </div>
     </div>
 
   </div>
