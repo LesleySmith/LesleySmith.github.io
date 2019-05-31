@@ -18,7 +18,7 @@ body {
     text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: Raleway;
 }
 
@@ -34,6 +34,10 @@ hr.style {
 
 img {
     padding-bottom: 20px;
+}
+
+.image-style {
+    border-radius: 100%;
 }
 
 /* NAV BAR DESIGN */
