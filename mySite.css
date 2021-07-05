@@ -4,18 +4,29 @@
     --btn-primary: rgb(213, 168, 219);
 }
 
+html {
+    height: 100%;
+}
+
 body {
     background-image: url(adrian-infernus-1477595-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 70px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
 }
 
-.jumbotron {
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
+.wrapper {
+    color: var(--secondary-color);
     font-family: Montserrat;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2, h3, h4 {
@@ -39,25 +50,6 @@ img {
 .image-style {
     border-radius: 100%;
     width: 250px;
-}
-
-/* NAV BAR DESIGN */
-
-.navbar-default {
-    background-color: var(--primary-color);
-}
-
-.navbar-brand {
-    color: var(--secondary-color);
-}
-
-/* CONTAINER DESIGN */
-
-.row-design {
-    font-family: Montserrat;
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    text-align: center;
 }
 
 /* BUTTON DESIGN */
